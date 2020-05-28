@@ -30,6 +30,7 @@ https://res.cloudinary.com/pretto-fr/image/upload/q_auto/v1552571440/ebook/decor
 https://res.cloudinary.com/pretto-fr/image/upload/q_auto/v1552571447/ebook/decorations/zigzag3.svg
 https://res.cloudinary.com/pretto-fr/image/upload/q_auto/v1552571447/ebook/decorations/zigzag3.svg
 https://res.cloudinary.com/pretto-fr/image/upload/c_scale,w_480,q_auto/v1553003467/website/guide/ebook_cover.webp
+https://i.ibb.co/JCSd2ZK/91-1.gif
 ```
 
 ### Couleurs utilisés pour référence
@@ -49,4 +50,4 @@ rgba(23, 55, 83, 0.4)
 
 ### Preview
 
-https://we.tl/t-z0tKfKZRiJ
+https://drive.google.com/file/d/1yUu4MIZiSAHJpFDdYB0wML90KuiIgfzI/view?usp=sharing
