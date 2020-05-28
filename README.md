@@ -10,6 +10,19 @@ Les points requis :
 - Le champ de saisie
 - Le bouton d'envoi avec animation lors de l'envoi
 
+### Installation
+
+```sh
+// Dans le répertoire, installer les dépendences
+yarn
+
+// Démarrer le serveur de développement
+yarn start
+```
+
+L'environnement de développement est accessible à <http://localhost:4200>.
+
+
 ### Temps
 
 Environ 1h
