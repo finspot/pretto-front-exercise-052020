@@ -1,10 +1,12 @@
 import React, { Component } from "react"
 
+import Title from "../Title"
+
 import "./styles.css"
 
 class App extends Component {
   render() {
-    return <h1>Hello friend!</h1>
+    return <Title />
   }
 }
 

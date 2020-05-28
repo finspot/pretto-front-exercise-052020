@@ -41,9 +41,12 @@ module.exports = {
               {
                 loader: "css-loader",
                 options: {
+                  importLoaders: 1,
+                  modules: true,
                   sourceMap: true,
                 },
-              }
+              },
+              "postcss-loader",
             ],
           },
 
@@ -68,8 +71,5 @@ module.exports = {
     publicPath: "/static/",
   },
 
-  plugins: [
-    new ErrorOverlayPlugin(),
-    new HtmlWebpackPlugin({ title: name }),
-  ],
+  plugins: [new ErrorOverlayPlugin(), new HtmlWebpackPlugin({ title: name })],
 }
