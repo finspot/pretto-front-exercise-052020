@@ -46,7 +46,7 @@ https://res.cloudinary.com/pretto-fr/image/upload/c_scale,w_480,q_auto/v15530034
 https://i.ibb.co/JCSd2ZK/91-1.gif
 ```
 
-### Couleurs utilisés pour référence
+### Couleurs utilisées pour référence
 
 ```
 #42b491
