@@ -21,6 +21,7 @@ class Banner extends React.Component {
 
     handleSubmit(e) {
         e.preventDefault();
+        this.onClickHandler();
 
         // Use with AXIOS :
         // axios({
@@ -47,6 +48,7 @@ class Banner extends React.Component {
     }
 
     onClickHandler = () => {
+        this.setState({ isLoading: true });
     }
 
     render() {
@@ -76,7 +78,11 @@ class Banner extends React.Component {
 
                             <button
                                 className={S.submitButton}>
-                                Envoyer
+                                {this.state.isLoading ?
+                                    <img alt='spiner' className={S.spinner} src="https://i.ibb.co/JCSd2ZK/91-1.gif" />
+                                    :
+                                    "Envoyer"
+                                }
                             </button>
 
                         </div>
